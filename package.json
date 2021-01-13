@@ -11,6 +11,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "elevation-pr": "^2.1.0",
     "express": "^4.17.1",
     "material": "^0.4.3",
     "mongoose": "^5.11.11",
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "review": "node node_modules/elevation-pr/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +50,13 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaabed/Bank-React.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mosaabed/Bank-React/issues"
+  },
+  "homepage": "https://github.com/mosaabed/Bank-React#readme"
 }
